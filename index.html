@@ -1,196 +1,420 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<!--[if gte IE 9]>
+<html class="ie9" lang="en">    <![endif]-->
+<!--[if gte IE 8]>
+<html class="ie8" lang="en">    <![endif]-->
+
 <head>
-  <meta charset="utf-8">
-  
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="小甲鱼,Web开发,HTML5,CSS3,Web编程教学">
+    <meta name="description" content="《零基础入门学习Web开发》案例演示">
+    <meta name="author" content="鱼C工作室">
+    <title>鱼C-简历</title>
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://www.airmos.cn/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+    <!-- CSS  -->
+    <link href="css/master.css" rel="stylesheet" type="text/css"/>
+    <link href="css/theme/themeBlue.css" rel="stylesheet" type="text/css"/>
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css"/>
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jpreloader.css" rel="stylesheet" type="text/css"/>
 
-<meta name="generator" content="Hexo 5.4.2"></head>
+
+    <!-- Scripts  -->
+    <script type="text/javascript" src="js/jquery-1-7-2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jpreLoader.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
 
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+<!-- Wrapper -->
+<div id="wrapper">
+    <!-- Header -->
+    <div id="header">
+        <div id="header-inner" class="inner">
+            <ul id="menu">
+                <li class="menu-list">
+                    <div id="menu-intro" class="menu-icon menu-active">Intro</div>
+                    <a href="#" class="menu-hover">Intro</a></li>
+                <li class="menu-list menu-click">
+                    <div id="menu-resume" class="menu-icon">Intro</div>
+                    <a href="#" class="menu-hover">Resume</a></li>
+                <li class="menu-list menu-click">
+                    <div id="menu-portfolio" class="menu-icon">Intro</div>
+                    <a href="#" class="menu-hover">Portfolio</a></li>
+                <li class="menu-list menu-click">
+                    <div id="menu-contact" class="menu-icon">Intro</div>
+                    <a href="#" class="menu-hover">Contact</a></li>
+            </ul>
+
+            <!-- Slider -->
+            <div id="menu-slider">
+                <div id="menu-slider-container">
+                    <div class="slider-bg bg-black"></div> <!-- Slider Background -->
+                    <div id="menu-slider-bar" class="slider-bar color-bar animate-bar"></div> <!-- Slider Bar -->
+                    <div id="menu-slider-pointer" class="slider-pointer color-pointer"></div> <!-- Slider Pointer -->
+                </div>
+            </div>
+            <!-- End Slider -->
+
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://www.airmos.cn"></form>
-      </div>
+    <!-- End Header -->
+
+    <!-- Content -->
+    <div id="content" class="inner">
+        <!-- Title -->
+        <h1 class="title-active">主页</h1>
+        <h1>履历</h1>
+        <h1>作品</h1>
+        <h1>联系</h1>
+        <!-- End Title -->
+
+        <div id="content-wrapper">
+            <div id="content-header"></div> <!-- Content Header -->
+            <div id="content-core-wrapper">
+                <div id="content-core">
+                    <!-- Intro -->
+                    <div id="intro" class="content-list content-list-active">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li><img src="img/slideshow/slideshow.png" alt=""/></li>
+                            </ul>
+                        </div>
+
+                        <div class="full-three separator"></div>
+
+                        <div class="one-three">
+                            <div class="photo-frame">
+                                <img src="img/photos/buer.png" alt="Photo of me"/>
+                            </div>
+                        </div>
+                        <div class="two-three">
+                            <h2>在下，不二如是</h2>
+                            <p>编程5min，吹水2h。Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra porta dictum.
+                                Nullam sem quam, ultrices semper congue eu, placerat ac quam. Pellentesque tempor nisi
+                                eu turpis feugiat ornare. Nullam risus enim, eleifend non imperdiet vel, fermentum quis
+                                tellus. Nulla pretium orci nec metus lobortis non convallis sem porta. Praesent
+                                hendrerit adipiscing mauris vitae sodales. Proin eget risus in velit blandit rhoncus
+                                imperdiet at mi. Sed eleifend, augue et tincidunt condimentum, massa tellus hendrerit
+                                odio, vel vehicula leo ligula sed lorem. Quisque adipiscing, enim vel iaculis venenatis,
+                                velit leo viverra tellus, ac sagittis neque velit in sem. Sed elementum tincidunt velit,
+                                ac gravida magna aliquam ac. Sed viverra mollis nisl, at ullamcorper mauris condimentum
+                                vel. Vestibulum nisl mi, lacinia rhoncus congue sit amet, convallis eget quam.
+                                Vestibulum interdum imperdiet justo laoreet tempor. </p>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Intro -->
+
+                    <!-- Resume -->
+                    <div id="resume" class="content-list">
+                        <div class="one-three">
+                            <div class="photo-frame">
+                                <img src="img/photos/buer.png" alt="Photo of me"/>
+                            </div>
+                        </div>
+                        <div class="two-three">
+                            <div class="group-container">
+                                <h2>About me</h2>
+                                <div class="resume-group">
+                                    <div class="resume-label">Name</div>
+                                    <div class="resume-info">不二如是</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Date of birth</div>
+                                    <div class="resume-info">Feb, 16 1999</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Address</div>
+                                    <div class="resume-info">鱼C园区，Web大楼，2栋33号
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Email</div>
+                                    <div class="resume-info">buer@fishc.com</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Phone</div>
+                                    <div class="resume-info">+62 123 643 9707</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                            <div class="group-container">
+                                <h2>技能</h2>
+                                <div class="resume-group">
+                                    <div class="resume-label">Photoshop</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level9"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">HTML5+CSS3+JS</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level9"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Node.js</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level8"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">PHP</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level7"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">React</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level8"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Ember</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level6"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="full-three">
+                            <div class="group-container">
+                                <h2>教育程度</h2>
+                                <div class="resume-group">
+                                    <h3>鱼C大学, 2007</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat
+                                        nunc. Phasellus vel orci ligula. Quisque dignissim velit vel augue adipiscing
+                                        quis porta neque congue. Aliquam vulputate, odio sed rutrum eleifend, nisi mi
+                                        facilisis turpis, ut sodales quam lectus eu felis. Pellentesque justo magna,
+                                        tincidunt vel dignissim nec, tincidunt id nisi. Maecenas varius quam at ante
+                                        laoreet quis semper ante egestas. In et velit dui. Sed porttitor condimentum
+                                        rhoncus. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="full-three">
+                            <div class="group-container">
+                                <h2>工作经历</h2>
+                                <div class="resume-group">
+                                    <h3>鱼C科技有限公司, 2010 - 2011</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat
+                                        nunc. Phasellus vel orci ligula. Quisque dignissim velit vel augue adipiscing
+                                        quis porta neque congue. Aliquam vulputate, odio sed rutrum eleifend, nisi mi
+                                        facilisis turpis, ut sodales quam lectus eu felis. Pellentesque justo magna,
+                                        tincidunt vel dignissim nec, tincidunt id nisi. Maecenas varius quam at ante
+                                        laoreet quis semper ante egestas. In et velit dui. Sed porttitor condimentum
+                                        rhoncus. </p>
+                                </div>
+
+                                <div class="resume-group">
+                                    <h3>鱼兮科技有限公司, 2011 - NOW</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat
+                                        nunc. Phasellus vel orci ligula. Quisque dignissim velit vel augue adipiscing
+                                        quis porta neque congue. Aliquam vulputate, odio sed rutrum eleifend, nisi mi
+                                        facilisis turpis, ut sodales quam lectus eu felis. Pellentesque justo magna,
+                                        tincidunt vel dignissim nec, tincidunt id nisi. Maecenas varius quam at ante
+                                        laoreet quis semper ante egestas. In et velit dui. Sed porttitor condimentum
+                                        rhoncus. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Resume -->
+
+                    <!-- Portfolio -->
+                    <div id="portfolio" class="content-list">
+                        <!-- Portfolio Filter -->
+                        <div id="portfolio-filter-container">
+                            <ul id="portfolio-filter">
+                                <li><a href="#" class="current" data-filter="*">所有</a></li>
+                                <li><a href="#" data-filter=".animation">项目一</a></li>
+                                <li><a href="#" data-filter=".photography">项目二</a></li>
+                                <li><a href="#" data-filter=".webdesign">项目三</a></li>
+                                <li><a href="#" data-filter=".printdesign">项目四</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Portfolio Filter -->
+
+                        <!-- Portfolio Lists -->
+                        <ul id="portfolio-list">
+                            <li class="photography">
+                                <a href="img/portfolio/preview1.jpg" rel="lightbox[portfolio]" title="Photography">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview2.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview3.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="printdesign">
+                                <a href="img/portfolio/preview4.jpg" rel="lightbox[portfolio]" title="Print Design">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview5.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview6.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="webdesign">
+                                <a href="img/portfolio/preview7.jpg" rel="lightbox[portfolio]" title="Web Design">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="printdesign">
+                                <a href="img/portfolio/preview8.jpg" rel="lightbox[portfolio]" title="Print Design">
+                                    <img src="img/portfolio/FishC.png" alt=""/>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End Portfolio Lists -->
+
+                    </div>
+                    <!-- End Portfolio -->
+
+                    <!-- Contact -->
+                    <div id="contact" class="content-list content-contact">
+
+                        <div class="full-three separator"></div>
+
+                        <div class="two-three">
+                            <h2>欢迎联系</h2>
+                            <form id="contact-form" method="POST" action="contact.php"/>
+                            <div class="form-component">
+                                <h3>Name</h3>
+                                <input type="text" class="input textfield" name="name"/>
+                            </div>
+
+                            <div class="form-component">
+                                <h3>Email</h3>
+                                <input type="text" class="input textfield" name="email"/>
+                            </div>
+
+                            <div class="form-component">
+                                <h3>Message</h3>
+                                <textarea class="input textarea" name="message"></textarea>
+                            </div>
+
+                            <input type="submit" class="btn" value="撩一下"/>
+                            </form>
+
+                        </div>
+                        <div class="one-three">
+                            <h2>联系方式</h2>
+                            <h3>Address</h3>
+                            <p>鱼C园区，Web大楼，2栋33号</p>
+                            <h3>Phone</h3>
+                            <p>+62 123 643 9707</p>
+                            <h3>Email</h3>
+                            <p>buer@fisch.com</p>
+                            <h3>主页</h3>
+                            <p>www.fishc.com</p>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Contact -->
+                </div>
+            </div>
+            <div id="content-footer"></div> <!-- Content Footer -->
+
+        </div>
+
+        <!-- Social Media -->
+        <div id="socmed">
+            <ul id="socmed-list">
+                <li><a href="http://bbs.fishc.com" target="_blank"><img src="img/social/facebook.png" alt="Facebook"/></a></li>
+                <li><a href="http://bbs.fishc.com" target="_blank"><img src="img/social/twitter.png" alt="Twitter"/></a></li>
+                <li><a href="http://bbs.fishc.com" target="_blank"><img src="img/social/weixin.png" alt="Skype"/></a></li>
+            </ul>
+        </div>
+        <!-- End Social Media -->
+
     </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/undefined/3eeb.html" class="article-date">
-  <time datetime="2023-01-28T08:38:58.718Z" itemprop="datePublished">2023-01-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/undefined/3eeb.html">Hello World</a>
-    </h1>
-  
+    <!-- End Content -->
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
+    <!-- Footer -->
+    <div id="footer">
+        <div id="footer-inner" class="inner"> Copyright © FishC.com <a
+                href="http://bbs.fishc.com" target="_blank" title="鱼C论坛" style="color: #2ebb96">鱼C论坛</a>
+        </div>
     </div>
-    <footer class="article-footer">
-      <a data-url="https://www.airmos.cn/undefined/3eeb.html" data-id="cldisgq130001w8vb0h788f52" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+    <!-- End Footer -->
+
+</div>
+<!-- End Wrapper -->
 
 
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">一月 2023</a></li></ul>
+<!-- This section is for Splash Screen -->
+<div id="preloader-container">
+    <div id="preloader">
+        <div id="preloader-photo"><img src="img/photos/buer.png" alt="Photo of me"/></div>
+        <div id="preloader-title">
+            <h1>小不二的简历</h1>
+            Web & 吹水 Ironbuilder
+        </div>
     </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/undefined/3eeb.html">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2023 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
+</div>
+<div id="jSplash"></div>
+<!-- End of Splash Screen -->
 
 
 
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
 </body>
 </html>
